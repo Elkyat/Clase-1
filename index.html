@@ -5,34 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+        
     body {
             background-color: #630808;
         }
     .logodiario {
         position: relative;
             display: block;
-            margin-left: 10px;
-            margin-bottom: -30px;
-            width: 200;
-            height: 130;
+            margin: auto;
+            margin-top:auto;
             z-index: 2;
     }
-
-    .joke {
-        position: relative;
-        margin-top: 140px;
-            z-index: 4;
-    }
-
     .asd {
         position: relative;
             z-index: 2;
             width: 230px; 
             height: 370px;
     }
-
     .rotulo {
             margin-top: -220px;
             position: relative;
@@ -42,97 +35,112 @@
             z-index: -1;
         }
     
+    
     </style>
 </head>
 <body>
-    <img src="Recursos\Tope\Logo.png" class="logodiario" alt="marco" style="width:140px">
-    <div class="rotulo"></div>
-    <div class="card">
-        <div class="header">
-                                <span class="title">Todas las Noticias</span>
-                                <span class="price">Prueba Gratis</span>
-                            </div>
-                            <ul class="lists">
-                                <li class="list">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
-                                    </svg>
-                                    <span>Lee sin restricciones</span>
-                                </li>
-                                <li class="list">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
-                                    </svg>
-                                    <span>30 dias de prueba</span>
-                                </li>
-                            </ul>
-                        </div>
-                        
 
-                        <div class="card2"></div>
+    <div class="navbar">
+        <a href="#">Inicio</a>
+        <a href="#">Deportes</a>
+        <a href="#">País</a>
+        <a href="#">Tecnología</a>
+        <a href="#">Entretenimiento</a>
+    </div>
 
-                        <div class="card3">
-                            <p class="title">Registrarse </p>        
-                            <label>
-                                <input class="input" type="email" placeholder="Email" required="">
-                            </label> 
-                                
-                            <label>
-                                <input class="input" type="password" placeholder="Contraseña" required="">
-                            </label>
-                            <label>
-                                <input class="input" type="password" placeholder="Confirme Contraseña" required="">
-                            </label>
-                            
-                            <button class="submit">Registrarse</button>
-                            <p class="signin">Ya tienes una cuenta? <a href="#">Logeate</a> </p>
-                        </div>
+    <img src="Recursos\Tope\Logo.png" class="logodiario" alt="marco" style="width:190px"></div>
 
-                        <div class="contenedor">
-                            <div class="elemento1">POLITICA</div>
-                            <div class="elemento2">FINANZAS</div>
-                            <div class="elemento3">ACTUALIDAD</div>
-                            <div class="elemento4">DEPORTE</div>
-                            <div class="elemento5">ELEMENTOS GUARDADOS</div>
-                        </div>
+    <div class="dollar-box">
+        <div class="dollar-title">Dolar Turista</div>
+        <div class="dollar-rate">$730,00</div>
+    </div>
+    <div class="dollar-box">
+        <div class="dollar-title">Dolar Oficial</div>
+        <div class="dollar-rate">$331,00</div>
+    </div>
+    <div class="dollar-box">
+        <div class="dollar-title">Dolar Libre</div>
+        <div class="dollar-rate">$920,00</div>
+    </div>
 
-                        <div class="contenedor2">
-                            <div class="elementoa">
-                                <img src="Recursos\Tope\noticia.jpg" class="asd">
-                                Israel en alerta maxima
-                            </div>
-                            <div class="elementob">Jerusalén, Israel - La tensión en Oriente Medio se eleva a medida que el grupo Hamas ha lanzado una serie de cohetes en dirección a territorio israelí, lo que ha llevado a Israel a mantener un estado de alerta máxima en la región.
 
-                                Según fuentes oficiales israelíes, al menos una docena de cohetes fueron lanzados desde la Franja de Gaza durante la noche, provocando que las sirenas de alerta se activaran en varias ciudades israelíes cercanas a la frontera. Las defensas antimisiles israelíes, conocidas como "Cúpula de Hierro", han interceptado varios de los proyectiles, evitando daños significativos.
-                                
-                                El Primer Ministro de Israel, en una declaración emitida esta mañana, condenó enérgicamente los ataques y afirmó que Israel tomará todas las medidas necesarias para proteger a sus ciudadanos. "No permitiremos que estos actos de agresión queden impunes. Hamas es responsable de esta escalada de violencia, y no dudaremos en tomar medidas proporcionadas en respuesta a estos ataques", dijo el Primer Ministro.
-                                
-                                Por su parte, un portavoz de Hamas justificó los ataques en un comunicado, afirmando que responden a la continua ocupación israelí de territorios palestinos y a las tensiones en la región. La comunidad internacional ha llamado a la contención y a la reanudación de las negociaciones de paz para resolver el conflicto de larga data.
-                                
-                                La situación en la región es motivo de preocupación, ya que los enfrentamientos entre Israel y grupos en Gaza han llevado a ciclos de violencia recurrentes en el pasado. La comunidad internacional sigue de cerca los acontecimientos en busca de una solución pacífica a esta compleja disputa.
-                                
-                                Ten en cuenta que esta noticia es completamente ficticia y se ha creado con fines educativos para tu proyecto escolar. Por favor, úsala de manera responsable y ética.
+    <div class="login-container">
+        <h2>Iniciar Sesión</h2>
+        <form class="login-form">
+            <input class="form-input" type="text" placeholder="@Gmail">
+            <input class="form-input" type="password" placeholder="Contraseña">
+            <button class="login-button" type="submit">Iniciar Sesión</button>
+        </form>
+        <p class="signup-link">¿No tienes una cuenta?</p>
+    </div>
 
-                                </div>
-                        </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="noticia">
+                    <img src="Recursos\Tope\lionel-messi-beso-copa-del-mundo_w416.webp" style="width:690px" alt="Noticia 1">
+                    <h3>Argentina campeon, de vuelta</h3>
+                    <p>Argentina vuelve a coronarse tras la velada contra francia luego de un exaustivo carousel de emociones varias, que supieron mantener al espectador suspendido en un estado de bipolaridad entre la esperanza y la desesperanza.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="noticia">
+                    <img src="Recursos\Tope\sddefault.jpg" alt="Noticia 2">
+                    <h3>Descubren una nueva especie de mariposa en la selva amazónica</h3>
+                    <p>Investigadores en la selva amazónica han anunciado el descubrimiento de una nueva especie de mariposa con colores deslumbrantes y patrones únicos. Este hallazgo destaca la importancia de conservar los ecosistemas naturales..</p>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="noticia">
+                    <img src="Recursos\Tope\javier-milei-en-el-bunker-el-domingo-CTRFS3KM5VGQBEMR2FWGKAI6LY.avif" alt="Noticia 3">
+                    <h3>Loco o genio</h3>
+                    <p>Entrevista al candidato por la libertad avanza, el cual podria llegar a ser el proximo presidente de todos los argentinos, abordaremos su polemicas propuestas y la puesta en escena de todo lo que plantea.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="noticia">
+                    <h3>¿Prodria descender Boca?</h3>
+                    <p>Analisis a titulo personal por el analista...</p>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="noticia">
+                    <h3>Hueco en la capa de ozono</h3>
+                    <p>Actualizacion, estado de la atmosfera...</p>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="noticia">
+                    <h3>Se dispara la nafta</h3>
+                    <p>Suba de precios abrupta amenaza sectores...</p>
+                </div>
+            </div>
+        </div>
+    </div>
 
-                        <div class="contenedor3">
-                            <div class="elementoz">
-                                <img src="Recursos\Tope\noticia4.avif" class="asd">
-                                Campeones del mundo
-                            </div>
-                            <div class="elementox">En un triunfo que quedará marcado en la historia del deporte, Argentina ha logrado la gloria en el campeonato de fútbol más prestigioso del planeta. La nación sudamericana ha asegurado su lugar en el panteón de campeones, un logro que llena de alegría los corazones de millones de argentinos.
 
-                                El equipo argentino ha demostrado un compromiso inquebrantable, habilidades deslumbrantes y una determinación incansable en su recorrido hacia la cima del deporte rey. Bajo la destacada y carismática capitán, cuyo nombre resuena en la eternidad del fútbol, han cautivado a un país entero. Cada gol, cada pase preciso y cada emocionante ataque han sido celebrados con una pasión inigualable por una nación que ha esperado ansiosamente este momento.
-                                
-                                Los héroes que visten la celeste y blanca han realizado hazañas asombrosas, cautivando los corazones de su gente y desatando una ola de orgullo en todo el país. Cada acción en el campo ha sido un tributo al amor y a la pasión que los argentinos sienten por su selección. Los homenajes a estos ídolos no cesan, y las calles de Buenos Aires y las ciudades de Argentina están llenas de la euforia de una nación que celebra su gloria.
-                                
-                                Este logro, cuyos detalles permanecen en la memoria colectiva, trasciende el tiempo y el espacio, recordándonos que Argentina siempre resplandece en el fútbol como campeona. El espíritu y la habilidad de estos atletas han llevado a su nación a la cima del deporte mundial, y en cada rincón del país, la bandera argentina ondea con orgullo.
-                                
-                                La hazaña es un testimonio del poder del deporte para unir a las personas y elevar a una nación a nuevas alturas. Aunque no se describan los detalles específicos de esta victoria, su significado trasciende cualquier descripción, dejando una huella imborrable en la historia de Argentina. ¡Viva Argentina, campeona del mundo!
-                                </div>
-                        </div>
-                        <img src="Recursos\Tope\joke.png" class="joke" alt="marco" style="width:350px">
+
+
+
+    
+
+    <html>
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.5.2/dist/css/bootstrap.min.css">
+</head>
+
+<footer>
+    <div class="footer-content">
+        <div class="logo">
+        El Cronista Online
+        </div>
+    </div>
+</footer>
+
 </body>
 
 </html>
