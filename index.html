@@ -6,44 +6,133 @@
     <title>Web</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <style>
-    .centrar-imagen {
+        @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+    body {
+            background-color: #630808;
+        }
+    .logodiario {
+        position: relative;
             display: block;
-            margin: auto;
+            margin-left: 10px;
+            margin-bottom: -30px;
+            width: 200;
+            height: 130;
+            z-index: 2;
     }
-    .joke-bender {
-    display: block;
-        margin: auto;
-        margin-bottom: 100%;
-        position: relative; 
-        margin-top: -243px;
-        margin-left: 50px;
-}
+
+    .joke {
+        position: relative;
+        margin-top: 140px;
+            z-index: 4;
+    }
+
+    .asd {
+        position: relative;
+            z-index: 2;
+            width: 230px; 
+            height: 370px;
+    }
+
+    .rotulo {
+            margin-top: -220px;
+            position: relative;
+            width: 1400px; 
+            height: 220px; 
+            background-color: #4a0707; /* Background color of the rectangle */
+            z-index: -1;
+        }
+    
     </style>
 </head>
 <body>
+    <img src="Recursos\Tope\Logo.png" class="logodiario" alt="marco" style="width:140px">
+    <div class="rotulo"></div>
+    <div class="card">
+        <div class="header">
+                                <span class="title">Todas las Noticias</span>
+                                <span class="price">Prueba Gratis</span>
+                            </div>
+                            <ul class="lists">
+                                <li class="list">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                                    </svg>
+                                    <span>Lee sin restricciones</span>
+                                </li>
+                                <li class="list">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                                    </svg>
+                                    <span>30 dias de prueba</span>
+                                </li>
+                            </ul>
+                        </div>
+                        
 
-    <img src="C:\Users\patof\Desktop\P1WEB\Recursos\Background\titulo.png" class="centrar-imagen" alt="titulo" style="width:600px" text-align: center;>
-    <img src="C:\Users\patof\Desktop\P1WEB\Recursos\Background\marco.png" class="centrar-imagen" alt="marco" style="width:1200px" text-align: center;>
-    <img src="C:\Users\patof\Desktop\P1WEB\Recursos\Items\joke.png" class="joke-bender" alt="marco" style="width:300px" text-align: center;>
+                        <div class="card2"></div>
 
-    <h1>Hola tio</h1>
-    <h2>Hola tio</h2>
-    <h3>Hola tio</h3>
-    <h4>Hola tio</h4>
-    <div class="fondo-pantalla">
-    </div>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, sint explicabo. Ipsa consequuntur similique reprehenderit soluta eaque a, pariatur veniam perferendis debitis veritatis facere qui sit, sequi ipsam iure modi.</p>
-    <ul>
-        <li>Lunes</li>
-        <li>Martes</li>
-        <li>Miercoles</li>
-        <li>Jueves</li>
-    </ul>
-    <ol>
-        <li>Lunes</li>
-        <li>Martes</li>
-        <li>Miercoles</li>
-        <li>Jueves</li>
-    </ol>
+                        <div class="card3">
+                            <p class="title">Registrarse </p>        
+                            <label>
+                                <input class="input" type="email" placeholder="Email" required="">
+                            </label> 
+                                
+                            <label>
+                                <input class="input" type="password" placeholder="Contraseña" required="">
+                            </label>
+                            <label>
+                                <input class="input" type="password" placeholder="Confirme Contraseña" required="">
+                            </label>
+                            
+                            <button class="submit">Registrarse</button>
+                            <p class="signin">Ya tienes una cuenta? <a href="#">Logeate</a> </p>
+                        </div>
+
+                        <div class="contenedor">
+                            <div class="elemento1">POLITICA</div>
+                            <div class="elemento2">FINANZAS</div>
+                            <div class="elemento3">ACTUALIDAD</div>
+                            <div class="elemento4">DEPORTE</div>
+                            <div class="elemento5">ELEMENTOS GUARDADOS</div>
+                        </div>
+
+                        <div class="contenedor2">
+                            <div class="elementoa">
+                                <img src="Recursos\Tope\noticia.jpg" class="asd">
+                                Israel en alerta maxima
+                            </div>
+                            <div class="elementob">Jerusalén, Israel - La tensión en Oriente Medio se eleva a medida que el grupo Hamas ha lanzado una serie de cohetes en dirección a territorio israelí, lo que ha llevado a Israel a mantener un estado de alerta máxima en la región.
+
+                                Según fuentes oficiales israelíes, al menos una docena de cohetes fueron lanzados desde la Franja de Gaza durante la noche, provocando que las sirenas de alerta se activaran en varias ciudades israelíes cercanas a la frontera. Las defensas antimisiles israelíes, conocidas como "Cúpula de Hierro", han interceptado varios de los proyectiles, evitando daños significativos.
+                                
+                                El Primer Ministro de Israel, en una declaración emitida esta mañana, condenó enérgicamente los ataques y afirmó que Israel tomará todas las medidas necesarias para proteger a sus ciudadanos. "No permitiremos que estos actos de agresión queden impunes. Hamas es responsable de esta escalada de violencia, y no dudaremos en tomar medidas proporcionadas en respuesta a estos ataques", dijo el Primer Ministro.
+                                
+                                Por su parte, un portavoz de Hamas justificó los ataques en un comunicado, afirmando que responden a la continua ocupación israelí de territorios palestinos y a las tensiones en la región. La comunidad internacional ha llamado a la contención y a la reanudación de las negociaciones de paz para resolver el conflicto de larga data.
+                                
+                                La situación en la región es motivo de preocupación, ya que los enfrentamientos entre Israel y grupos en Gaza han llevado a ciclos de violencia recurrentes en el pasado. La comunidad internacional sigue de cerca los acontecimientos en busca de una solución pacífica a esta compleja disputa.
+                                
+                                Ten en cuenta que esta noticia es completamente ficticia y se ha creado con fines educativos para tu proyecto escolar. Por favor, úsala de manera responsable y ética.
+
+                                </div>
+                        </div>
+
+                        <div class="contenedor3">
+                            <div class="elementoz">
+                                <img src="Recursos\Tope\noticia4.avif" class="asd">
+                                Campeones del mundo
+                            </div>
+                            <div class="elementox">En un triunfo que quedará marcado en la historia del deporte, Argentina ha logrado la gloria en el campeonato de fútbol más prestigioso del planeta. La nación sudamericana ha asegurado su lugar en el panteón de campeones, un logro que llena de alegría los corazones de millones de argentinos.
+
+                                El equipo argentino ha demostrado un compromiso inquebrantable, habilidades deslumbrantes y una determinación incansable en su recorrido hacia la cima del deporte rey. Bajo la destacada y carismática capitán, cuyo nombre resuena en la eternidad del fútbol, han cautivado a un país entero. Cada gol, cada pase preciso y cada emocionante ataque han sido celebrados con una pasión inigualable por una nación que ha esperado ansiosamente este momento.
+                                
+                                Los héroes que visten la celeste y blanca han realizado hazañas asombrosas, cautivando los corazones de su gente y desatando una ola de orgullo en todo el país. Cada acción en el campo ha sido un tributo al amor y a la pasión que los argentinos sienten por su selección. Los homenajes a estos ídolos no cesan, y las calles de Buenos Aires y las ciudades de Argentina están llenas de la euforia de una nación que celebra su gloria.
+                                
+                                Este logro, cuyos detalles permanecen en la memoria colectiva, trasciende el tiempo y el espacio, recordándonos que Argentina siempre resplandece en el fútbol como campeona. El espíritu y la habilidad de estos atletas han llevado a su nación a la cima del deporte mundial, y en cada rincón del país, la bandera argentina ondea con orgullo.
+                                
+                                La hazaña es un testimonio del poder del deporte para unir a las personas y elevar a una nación a nuevas alturas. Aunque no se describan los detalles específicos de esta victoria, su significado trasciende cualquier descripción, dejando una huella imborrable en la historia de Argentina. ¡Viva Argentina, campeona del mundo!
+                                </div>
+                        </div>
+                        <img src="Recursos\Tope\joke.png" class="joke" alt="marco" style="width:350px">
 </body>
+
 </html>
